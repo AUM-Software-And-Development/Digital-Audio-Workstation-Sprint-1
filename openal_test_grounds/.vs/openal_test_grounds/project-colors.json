@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a883f3df-1fa0-435f-a9de-85be584e49cf": {
+      "ProjectGuid": "a883f3df-1fa0-435f-a9de-85be584e49cf",
+      "DisplayName": "openal_test_grounds",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
