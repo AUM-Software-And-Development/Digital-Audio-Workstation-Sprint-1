@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openal_test_grounds", "openal_test_grounds\openal_test_grounds.vcxproj", "{A883F3DF-1FA0-435F-A9DE-85BE584E49CF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dsp_utils", "..\dsp_utils\dsp_utils\dsp_utils.vcxproj", "{B9C41056-7C89-443D-81D7-A0287454072F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dsp_utils", "..\dsp_utils\dsp_utils.vcxproj", "{B9C41056-7C89-443D-81D7-A0287454072F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
