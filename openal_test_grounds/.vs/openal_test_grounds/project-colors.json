@@ -5,7 +5,12 @@
       "ProjectGuid": "a883f3df-1fa0-435f-a9de-85be584e49cf",
       "DisplayName": "openal_test_grounds",
       "ColorIndex": 0
+    },
+    "b9c41056-7c89-443d-81d7-a0287454072f": {
+      "ProjectGuid": "b9c41056-7c89-443d-81d7-a0287454072f",
+      "DisplayName": "dsp_utils",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
