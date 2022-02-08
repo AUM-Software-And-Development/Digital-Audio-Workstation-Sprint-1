@@ -18,18 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SoundDevice.cpp">
+    <ClCompile Include="ALAddressBlock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SampleBuffer.cpp">
+    <ClCompile Include="SampleCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SoundDevice.h">
+    <ClInclude Include="ALAddressBlock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SampleBuffer.h">
+    <ClInclude Include="SampleCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,13 +1,19 @@
-#include "SoundDevice.h"
-#include "SampleBuffer.h"
+#include "ALAddressBlock.h"
+#include "SampleCache.h"
 #include <stdio.h>
+#include "PlaybackBuffer.h"
 
 int main()
 {
-	SoundDevice* testing_bufferability = SoundDevice::get();
-	uint32_t testing_vectors = SampleBuffer::get()->play_sample_and_increase_history("C:/development/open_al-gl_digital_audio_workstation/openal_test_grounds/openal_test_grounds/snare_drum.wav");
+	ALAddressBlock* global_AL_address = ALAddressBlock::get();
 
-	printf("No errors.\n");
+	uint32_t testing_vectors = SampleCache::get()->add_to_vector("C:\\development\\open_al-gl_digital_audio_workstation\\openal_test_grounds\\openal_test_grounds\\snare_drum.wav");
+
+	PlaybackBuffer main_buffer;
+
+	main_buffer.play(testing_vectors);
+
+	printf("Completed without exiting.\n");
 
 	return 0;
 }

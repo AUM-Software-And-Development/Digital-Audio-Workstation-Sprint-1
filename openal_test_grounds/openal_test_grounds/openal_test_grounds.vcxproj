@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SampleBuffer.cpp" />
-    <ClCompile Include="SoundDevice.cpp" />
+    <ClCompile Include="PlaybackBuffer.cpp" />
+    <ClCompile Include="SampleCache.cpp" />
+    <ClCompile Include="ALAddressBlock.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SampleBuffer.h" />
-    <ClInclude Include="SoundDevice.h" />
+    <ClInclude Include="PlaybackBuffer.h" />
+    <ClInclude Include="SampleCache.h" />
+    <ClInclude Include="ALAddressBlock.h" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="snare_drum.wav" />
