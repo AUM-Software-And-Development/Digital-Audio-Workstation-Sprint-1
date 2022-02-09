@@ -2,8 +2,7 @@
 #include <AL\al.h>
 #include <vector>
 
-class SampleCache
-{
+class SampleCache {
 public:
 	static SampleCache* get();
 

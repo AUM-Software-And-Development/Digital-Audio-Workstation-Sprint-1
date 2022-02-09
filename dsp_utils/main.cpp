@@ -1,10 +1,7 @@
 #include <stdio.h>
-#ifndef MATH_HEADERS
-#include "math_headers.h"
-#define MATH_HEADERS
-#endif // !STREAM_HEADERS_H
-#include "FunctionGenerator.h"
-#include "WaveFileWriter.h"
+
+#include "use_math_headers.h"
+#include "use_dsp_utils_namespace.h"
 
 int main() {
 

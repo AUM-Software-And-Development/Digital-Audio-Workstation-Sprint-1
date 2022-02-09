@@ -2,19 +2,13 @@
 
 // Remake as singleton
 
-WaveFileWriter::WaveFileWriter(int sampleRate, int numberOfChannels, int bitsPerSample)
-{
-	this->byte_rate = sampleRate * numberOfChannels * (bitsPerSample / this->bits_per_register);
-	this->block_align = numberOfChannels * (bitsPerSample / this->bits_per_register);
-}
-
-void WaveFileWriter::write_bytes_with_differential(ofstream& fileName, int plotHeight, int incrementalByteDifferential)
+void DSP_UTILS::WaveFileWriter::write_bytes_with_differential(ofstream& fileName, int plotHeight, int incrementalByteDifferential)
 {
 	/* This is just a one liner to write an array of rounded bytes */
 	fileName.write(reinterpret_cast<const char*>(&plotHeight), incrementalByteDifferential);
 }
 
-void WaveFileWriter::write_wav_header(ofstream& fileName, int sampleRate, int bitsPerSample, int numberOfChannels)
+void DSP_UTILS::WaveFileWriter::write_wav_header(ofstream& fileName, int sampleRate, int bitsPerSample, int numberOfChannels)
 {
 	if (fileName.is_open())
 	{

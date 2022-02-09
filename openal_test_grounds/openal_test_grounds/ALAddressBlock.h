@@ -3,10 +3,10 @@
 
 // If its not a singleton numerous devices can be created
 
-class ALAddressBlock
-{
+class ALAddressBlock {
 public:
 	static ALAddressBlock* get();
+
 private:
 	ALAddressBlock();
 	~ALAddressBlock();

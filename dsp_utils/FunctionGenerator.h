@@ -1,11 +1,11 @@
 #pragma once
-#ifndef MATH_HEADERS
-#include "math_headers.h"
-#define MATH_HEADERS
-#endif // !STREAM_HEADERS_H
 
+#include "use_math_headers.h"
 
-class FunctionGenerator {
-public:
-	double get_sine(int i, double frequency, int sampleRate);
-};
+namespace DSP_UTILS
+{
+	class FunctionGenerator {
+	public:
+		double get_sine(int i, double frequency, int sampleRate);
+	};
+}

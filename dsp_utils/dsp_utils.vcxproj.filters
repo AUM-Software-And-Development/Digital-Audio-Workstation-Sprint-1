@@ -34,10 +34,13 @@
     <ClInclude Include="FunctionGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="math_headers.h">
+    <ClInclude Include="use_math_headers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WaveFileWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="use_dsp_utils_namespace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -27,8 +27,9 @@
     <Media Include="sine.wav" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="use_dsp_utils_namespace.h" />
     <ClInclude Include="FunctionGenerator.h" />
-    <ClInclude Include="math_headers.h" />
+    <ClInclude Include="use_math_headers.h" />
     <ClInclude Include="WaveFileWriter.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -53,7 +54,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>

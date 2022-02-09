@@ -1,7 +1,6 @@
 #pragma once
 #include <AL\al.h>
-class PlaybackBuffer
-{
+class PlaybackBuffer {
 public:
 	PlaybackBuffer();
 	~PlaybackBuffer();
