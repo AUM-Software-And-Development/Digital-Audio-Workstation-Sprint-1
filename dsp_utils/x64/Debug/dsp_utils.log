@@ -1,8 +1,9 @@
-﻿  main.cpp
-C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(80,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(93,19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
-C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(102,52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(103,52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(105,17): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
-  LINK : C:\development\open_al-gl_digital_audio_workstation\openal_test_grounds\x64\Debug\dsp_utils.exe not found or not built by the last incremental link; performing full link
+﻿  WaveFileWriter.cpp
+  main.cpp
+C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(25,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(38,19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(47,52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(48,52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\development\open_al-gl_digital_audio_workstation\dsp_utils\main.cpp(50,17): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  Generating Code...
   dsp_utils.vcxproj -> C:\development\open_al-gl_digital_audio_workstation\openal_test_grounds\x64\Debug\dsp_utils.exe
