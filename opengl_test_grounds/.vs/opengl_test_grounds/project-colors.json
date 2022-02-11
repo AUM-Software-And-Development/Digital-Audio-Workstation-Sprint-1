@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "11f4cf6c-9a34-4ffb-98e2-ddf71e40373b": {
+      "ProjectGuid": "11f4cf6c-9a34-4ffb-98e2-ddf71e40373b",
+      "DisplayName": "opengl_test_grounds",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9b689a38-c837-49c5-b7ca-7801c4934dc4": {
+      "ProjectGuid": "9b689a38-c837-49c5-b7ca-7801c4934dc4",
+      "DisplayName": "sandbox",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
