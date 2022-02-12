@@ -148,12 +148,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\SandBox.cpp" />
     <ClCompile Include="src\sandbox_application.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\opengl_test_grounds\opengl_test_grounds.vcxproj">
       <Project>{11f4cf6c-9a34-4ffb-98e2-ddf71e40373b}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SandBox.h" />
+    <ClInclude Include="src\using_sandbox_namespace.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

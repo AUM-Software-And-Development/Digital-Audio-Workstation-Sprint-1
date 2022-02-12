@@ -1,13 +1,13 @@
+#ifndef QUICK_LOOK_H
 #include <quick_look.h>
+#define QUICK_LOOK_H
+#endif // !QUICK_LOOK_H
 
-class Sandbox : public OPENGL_TEST_GROUNDS::Application
-{
-public:
-	Sandbox(){}
-	~Sandbox(){}
-};
+#include "using_sandbox_namespace.h"
 
-OPENGL_TEST_GROUNDS::Application* OPENGL_TEST_GROUNDS::get_and_build()
+SandBox mainBox = SandBox();
+
+int main(int argc, char** argv)
 {
-	return new Sandbox();
+	return quick_look_main(&mainBox, 0, 0);
 }

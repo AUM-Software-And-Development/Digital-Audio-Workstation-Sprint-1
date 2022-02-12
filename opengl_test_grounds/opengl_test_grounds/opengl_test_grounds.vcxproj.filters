@@ -20,10 +20,10 @@
     </Font>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\quick_look\core.h">
+    <ClInclude Include="src\quick_look\export_settings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\quick_look\Application.h">
+    <ClInclude Include="src\quick_look\ContextFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\quick_look.h">
@@ -32,9 +32,18 @@
     <ClInclude Include="src\quick_look\entry_point.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\quick_look\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quick_look\using_opengl_test_grounds_namespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\quick_look\Application.cpp">
+    <ClCompile Include="src\quick_look\ContextFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quick_look\Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -144,13 +144,16 @@
     <Font Include="..\ttf_fonts\04b_09\04B_09__.TTF" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\quick_look\Logger.h" />
     <ClInclude Include="src\quick_look.h" />
-    <ClInclude Include="src\quick_look\Application.h" />
-    <ClInclude Include="src\quick_look\core.h" />
+    <ClInclude Include="src\quick_look\ContextFactory.h" />
+    <ClInclude Include="src\quick_look\export_settings.h" />
     <ClInclude Include="src\quick_look\entry_point.h" />
+    <ClInclude Include="src\quick_look\using_opengl_test_grounds_namespace.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\quick_look\Application.cpp" />
+    <ClCompile Include="src\quick_look\Logger.cpp" />
+    <ClCompile Include="src\quick_look\ContextFactory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

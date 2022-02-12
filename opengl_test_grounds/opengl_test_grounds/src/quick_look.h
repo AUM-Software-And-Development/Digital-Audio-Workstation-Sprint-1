@@ -1,13 +1,9 @@
 #pragma once
 
-#ifndef QUICK_LOOK_CORE
-#include "quick_look/core.h"
-#define QUICK_LOOK_CORE
-#endif
-
 #ifndef QUICK_LOOK_H
 #include <stdio.h>
-#include "quick_look/Application.h"
+#include <memory.h>
+#include "quick_look/using_opengl_test_grounds_namespace.h"
 #include "quick_look/entry_point.h"
 #define QUICK_LOOK_H
-#endif
+#endif // !QUICK_LOOK_H

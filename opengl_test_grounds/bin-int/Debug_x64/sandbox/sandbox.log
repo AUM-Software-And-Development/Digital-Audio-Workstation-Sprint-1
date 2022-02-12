@@ -1,2 +1,12 @@
-﻿  sandbox_application.cpp
+﻿  SandBox.cpp
+C:\development\open_al-gl_digital_audio_workstation\opengl_test_grounds\opengl_test_grounds\src\quick_look\Logger.h(23,35): warning C4251: 'OPENGL_TEST_GROUNDS::GLLogger::core_logger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'OPENGL_TEST_GROUNDS::GLLogger'
+C:\development\vcpkg\installed\x64-windows\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\development\open_al-gl_digital_audio_workstation\opengl_test_grounds\opengl_test_grounds\src\quick_look\Logger.h(24,35): warning C4251: 'OPENGL_TEST_GROUNDS::GLLogger::client_logger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'OPENGL_TEST_GROUNDS::GLLogger'
+C:\development\vcpkg\installed\x64-windows\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  sandbox_application.cpp
+C:\development\open_al-gl_digital_audio_workstation\opengl_test_grounds\opengl_test_grounds\src\quick_look\Logger.h(23,35): warning C4251: 'OPENGL_TEST_GROUNDS::GLLogger::core_logger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'OPENGL_TEST_GROUNDS::GLLogger'
+C:\development\vcpkg\installed\x64-windows\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\development\open_al-gl_digital_audio_workstation\opengl_test_grounds\opengl_test_grounds\src\quick_look\Logger.h(24,35): warning C4251: 'OPENGL_TEST_GROUNDS::GLLogger::client_logger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'OPENGL_TEST_GROUNDS::GLLogger'
+C:\development\vcpkg\installed\x64-windows\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Generating Code...
   sandbox.vcxproj -> C:\development\open_al-gl_digital_audio_workstation\opengl_test_grounds\bin\Debug_x64\sandbox\sandbox.exe
